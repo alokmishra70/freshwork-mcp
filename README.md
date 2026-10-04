@@ -8,7 +8,7 @@ More details: [what the agent can and can't do](docs/CAPABILITIES.md), and the [
 
 ## Demo video
 
-A short walkthrough of the connector running against the local mock: [docs/demo.mov](docs/demo.mov) (24 MB). On GitHub, click the file and it plays in the browser.
+A short walkthrough of the connector running against the local mock: [watch the demo](https://drive.google.com/file/d/1N1MNASoPKOVdzT3iUAFxRGrXumKlNtq_/view?usp=sharing).
 
 ## Setup
 
