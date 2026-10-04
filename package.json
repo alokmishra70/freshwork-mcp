@@ -1,0 +1,31 @@
+{
+  "name": "freshdesk-mcp",
+  "version": "1.0.0",
+  "description": "Read-only MCP connector for Freshdesk tickets and contacts",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "freshdesk-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "spec": "tsx scripts/gen-spec.ts",
+    "smoke": "tsx scripts/smoke.ts",
+    "mock": "tsx mock/server.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "dotenv": "^18.0.5",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
